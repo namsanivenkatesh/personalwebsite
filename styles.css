@@ -1,0 +1,98 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a global font family and font size for the entire webpage */
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6; /* Adjust line height for better readability */
+  border-radius: 10px; /* Add rounded borders to the body */
+  overflow: hidden;
+  margin: 10px; /* Hide content that overflows beyond the rounded borders */
+}
+
+/* Style the navigation bar */
+.navbar {
+  list-style: none;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar li {
+  margin: 0 10px; /* Adjust the spacing between navigation items */
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px; /* Reduce the font size for a sleeker look */
+  padding: 8px 12px; /* Add padding to create a button-like appearance */
+  border-radius: 5px; /* Add rounded corners to the navigation items */
+  transition: background-color 0.3s; /* Add smooth transition effect */
+}
+
+.navbar li a:hover {
+  background-color: #f8b400; /* Change the background color on hover to your preferred color */
+  color: #333; /* Change the text color on hover for better contrast */
+}
+
+/* Add a special style for the active navigation item */
+.navbar li.active a {
+  background-color: #f8b400; /* Use the same hover color for the active item */
+  color: #333; /* Use the same hover text color for the active item */
+}
+
+/* Optional: Center align the navigation items for better symmetry */
+.navbar {
+  justify-content: center;
+}
+
+/* Optional: Add a box-shadow to the navigation bar for a subtle 3D effect */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Add a background color and set text color for the body */
+body {
+  background-color: white;
+  color: #333;
+}
+
+/* Optional: Customize heading styles */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Optional: Customize paragraph styles */
+p {
+  margin-bottom: 16px;
+}
+
+/* Optional: Customize unordered list styles */
+ul {
+  margin-bottom: 16px;
+}
+
+/* Optional: Customize list item styles */
+li {
+  margin-bottom: 8px;
+  border-radius: 5px; /* Add rounded borders to list items */
+}
+
+/* Optional: Add border-box to all elements for consistent box sizing */
+* {
+  box-sizing: border-box;
+}
