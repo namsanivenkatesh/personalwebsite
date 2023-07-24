@@ -96,3 +96,25 @@ li {
 * {
   box-sizing: border-box;
 }
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.download-button:hover {
+  background-color: #45a049;
+}
+
+/* Add a little margin for better spacing */
+.download-button + p {
+  margin-top: 10px;
+}
